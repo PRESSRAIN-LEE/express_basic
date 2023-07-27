@@ -16,9 +16,9 @@ npm install [dependency 이름]
 # database
 - 계정 및 database 생성 (root)
 ```
-create database db_codingrecipe;
-create user user_codingrecipe@localhost identified by '1234';
-grant all privileges on db_codingrecipe.* to user_codingrecipe@localhost;
+create database express_basic;
+create user user_basic@localhost identified by '1234';
+grant all privileges on express_basic.* to user_basic@localhost;
 ```
 - 사용할 table
 ```
